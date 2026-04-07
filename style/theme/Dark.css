@@ -1,0 +1,7 @@
+body {
+  transition: background 0.3s ease;
+
+  background: linear-gradient(to bottom, #3841e5, #000346);
+  background-attachment: fixed;
+  min-height: 100vh;
+}

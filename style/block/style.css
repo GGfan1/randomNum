@@ -1,0 +1,61 @@
+body {
+  transition: background 0.3s ease;
+
+  background: linear-gradient(to bottom, #3841e5, #000346);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.randomBlock {
+  padding: 150px 0;
+}
+
+.randomDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blockNum {
+  padding: 75px;
+  border-radius: 10em;
+  background: #000;
+}
+
+.spanNum {
+  padding: 15px 0;
+}
+
+.numbtn {
+  width: 100px;
+  height: 50px;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .randomBlock {
+    width: auto;
+  }
+
+  .randomDiv {
+    width: auto;
+  }
+
+  .buttonNum {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+  }
+
+  .numbtn {
+    width: 150px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,44 @@
+@import url(../block/style.css);
+
+body {
+  font-family: "Gugi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.theme {
+  padding-top: 10px;
+}
+
+.active {
+  display: none;
+}
+
+.btn {
+  padding: 25px;
+  border-radius: 50px;
+  border: none;
+}
+
+#btnLight {
+  background: linear-gradient(to bottom, #3841e5, #000346);
+}
+
+#btnDark {
+  background: linear-gradient(to bottom, #b0b3fd, #353ddb);
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: auto;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}
